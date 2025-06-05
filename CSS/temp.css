@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+.card{
+    width: 50%;
+    max-width: 470px;
+    background-color: brown;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #333;
+    padding: 10px 25px;
+    border-radius: 38px;
+    height: 60px;
+    margin-right: 16px;
+    font-size: 18px;
+    flex: 1;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+.search button img{
+    width: 30PX;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500px;
+
+}
+.weather h2{
+    font-size: 45px;
+    margin-top: -10px;
+
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 100px;
+    margin-right: 5px;
+
+}
+
+.humidity .wind{
+    font-size: 20px;
+    margin-top: -6px;
+
+}
+
+.weather{
+    display: none;
+}
+
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff701;
+    display: none;
+}
+
+body {  background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.search input {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.search input::placeholder {
+    color: #ddd;
+}
+
+.search button {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.details .col p {
+    color: white;
+}
+
+.error p {
+    color: #ff6b6b;
+}
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}

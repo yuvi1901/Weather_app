@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="CSS/temp.css">
+</head>
+<body>
+   <video autoplay muted loop id="bg-video">
+    <source src="video/bgvideo.mp4" type="video/mp4">
+   </video>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name">
+            <button>
+                <img src="img/search.png" alt="Search">
+            </button>
+        </div>
+
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+
+        <div class="weather">
+            <img src="img/rain.png" class="weather-icon" alt="Weather Icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Nashik</h2>
+
+            <div class="details">
+                <div class="col">
+                    <img src="img/wind.png" alt="Humidity Icon">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/windre.png" alt="Wind Icon">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JAVA/temp.js"></script>
+</body>
+</html>
